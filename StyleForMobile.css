@@ -1,0 +1,104 @@
+@media (max-width:450px) {
+    body{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 90%;
+        
+    }
+    .nav-container{
+    }
+    p{
+        font-size: 15px;
+    }
+
+    nav{
+        align-items: center;
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav img{
+        width: 60px;
+    }
+    nav .hambarger-menu{
+        display: block;
+        width: 50px;
+        font-weight: normal;
+        height: 25px;
+    }
+    .head-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        column-gap: 30px;
+    }
+    .leftside-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .leftside-content .main-picture img{
+        content: url(./assets/images/image-web-3-mobile.jpg);
+        width: 100%;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        margin-bottom: 40px;
+    }
+    .main-content .title-box{
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .main-content .description-box{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .rightside-content{
+       width: 100%; 
+    }
+    .rightside-content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .bottom-content{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .bottom-content .suggestion-content-box{
+        width: 100%;
+        column-gap: 15px
+    }
+    .suggestion-content-box .suggestion-content{
+        row-gap: 10px;
+    }
+    .suggestion-content-box img{
+        width: 100px;
+    }
+    .suggestion-content-box .suggestion-content .suggestion-content-number{
+        font-size: 30px;
+    }
+    .suggestion-content-box .suggestion-content h5{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .suggestion-content-box .suggestion-content p{
+        font-size: 15px;
+        color: var(--Dark-grayish-blue);
+        line-height: 24px;
+    }
+}
